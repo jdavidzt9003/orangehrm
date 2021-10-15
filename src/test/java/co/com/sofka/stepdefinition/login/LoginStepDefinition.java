@@ -71,7 +71,7 @@ public class LoginStepDefinition extends WebUI {
     public void elUsuarioDejaLosCamposUsuarioYPasswordVacios() throws IOException {
         //dataScenarioFour();
         login = new Login(driver, loginModel);
-        login.clickBotton();
+        login.clickBottonLogin();
     }
 
     @Then("el sistema no debe permitir el ingreso y debe arrojar el mensaje de campo vacío")

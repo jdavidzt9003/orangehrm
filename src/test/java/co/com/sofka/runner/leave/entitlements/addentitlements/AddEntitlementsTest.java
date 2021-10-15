@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         plugin = {"pretty", "html:target/cucumber-report/cucumber.html"},
         snippets = CucumberOptions.SnippetType.CAMELCASE,
         features = {"src/test/resources/features/webui/leave/entitlements/addentitlements/addEntitlements.feature"},
-        glue = {"co.com.sofka.stepdefinition.leave.entitlements.addentitlements.AddEntitlementsStepDefinition"},
+        glue = {"co.com.sofka.stepdefinition.leave.entitlements.addentitlements"},
         publish = true)
 
 public class AddEntitlementsTest {

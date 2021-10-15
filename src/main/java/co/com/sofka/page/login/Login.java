@@ -30,7 +30,7 @@ public class Login extends CommonActionsOnPages {
         clickOn(btnLogin);
     }
 
-    public void clickBotton(){
+    public void clickBottonLogin(){
         clickOn(btnLogin);
     }
 

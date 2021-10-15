@@ -16,6 +16,7 @@ public class WebUI {
 
     protected void setUpWebDriverUrl(){
         driver = new ChromeDriver();
+        driver.manage().window().maximize();
         driver.get(URL);
     }
 
