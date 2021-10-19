@@ -5,7 +5,6 @@ import co.com.sofka.page.common.CommonActionsOnPages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-import java.io.IOException;
 
 public class Login extends CommonActionsOnPages {
     //se declara el modelo de datos

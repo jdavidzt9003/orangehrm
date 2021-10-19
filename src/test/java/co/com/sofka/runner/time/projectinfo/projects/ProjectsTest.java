@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = {"pretty","html:target/cucumber-report/cucumber.html"},
         glue = {"co.com.sofka.stepdefinition.time.projectinfo.projects"},
-        features = {"src/test/resources/features/webui/time/projectinfo/projects/projects.feature"},
+        features = {"src/test/resources/features/webui/time/projectinfo/projects"},
         publish = true,
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )
